@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/CANN-OpenSoftware%202.0-blue" />
   <img src="https://img.shields.io/badge/Electrical%20Engineering%20SIG-CANN%20Community-orange" />
   <img src="https://img.shields.io/badge/license-Apache%202.0-green" />
   <img src="https://img.shields.io/badge/status-active-brightgreen" />
@@ -20,8 +19,7 @@
 - **新能源出力特征提取**：应对风光出力的强波动性与不确定性
 - **长时序负荷稳定性约束**：满足电力系统对时序一致性的严格要求
 
-
-
+---
 
 ## 核心算子列表
 
@@ -29,7 +27,6 @@
 | ----------------------- | ------ | ---------------- | ------ |
 | `ReduceAll`             | 数学计算算子 | 对任意轴上的规约方式做了性能优化 | ✅ 已发布  |
 | `TemporalStabilityLoss` | 长时序预测  | 长时序负荷稳定性约束损失算子   | 🚧 开发中 |
-
 
 ---
 
@@ -73,4 +70,4 @@
 
 ## 📄 许可证
 
-本项目基于 [Apache License 2.0]() 开源，基于 **CANN OpenSoftware 2.0**。
+本项目基于 [Apache License 2.0]() 开源。
